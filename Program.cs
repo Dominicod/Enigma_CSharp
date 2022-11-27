@@ -1,4 +1,3 @@
-using System;
 using Enigma_CSharp.lib;
 
 namespace Enigma_CSharp
@@ -7,8 +6,18 @@ namespace Enigma_CSharp
     {
         public static void Main(string[] args)
         {
-            var message = Encryptable.Encrypt(args[0]);
+            
+        }
+
+        public static void Encrypt(string[] args)
+        {
+            var message = Encryptable.Encrypt(args[0], Int16.Parse(args[1]));
             Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.OriginalMessage}");
+        }
+
+        public static void Decrypt(string[] args)
+        {
+            
         }
     }
 }
