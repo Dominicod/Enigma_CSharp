@@ -25,20 +25,39 @@ namespace Enigma_CSharp
 
         private static void Encrypt()
         {
-            Console.WriteLine("Please enter a message(string), followed by a key(number):");
-            var userResponse = Console.ReadLine().Split(" ");
-            
-            var message = Encryptable.Encrypt(userResponse[0], Int16.Parse(userResponse[1]));
-            Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.OriginalMessage}");
+            try
+            {
+                Console.WriteLine("Please enter a message(string), followed by a key(number):");
+                var userResponse = Console.ReadLine().Split(" ");
+                
+                var message = Encryptable.Encrypt(userResponse[0], Int16.Parse(userResponse[1]));
+                Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.OriginalMessage}");
+            }
+            catch
+            {
+                ErrorMessage();
+            }
         }
         
         private static void Decrypt()
         {
-            Console.WriteLine("Please enter the encrypted message(string), followed by the key used(number):");
-            var userResponse = Console.ReadLine().Split(" ");
-            
-            var message = Decryptable.Decrypt(userResponse[0], Int16.Parse(userResponse[1]));
-            Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.Decryption}");
+            try
+            {
+                Console.WriteLine("Please enter the encrypted message(string), followed by the key used(number):");
+                var userResponse = Console.ReadLine().Split(" ");
+                
+                var message = Decryptable.Decrypt(userResponse[0], Int16.Parse(userResponse[1]));
+                Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.Decryption}");
+            }
+            catch
+            {
+                ErrorMessage();
+            }
+        }
+
+        private static void ErrorMessage()
+        {
+            Console.WriteLine("Error: Incorrect arguments sent");
         }
     }
 }
