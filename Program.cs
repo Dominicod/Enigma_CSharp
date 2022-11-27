@@ -7,8 +7,8 @@ namespace Enigma_CSharp
     {
         public static void Main(string[] args)
         {
-            (string encryption, string orginalMessage) message = Encryptable.Encrypt(args[0]);
-            Console.WriteLine($"Encrypted Message: {message.encryption}, Oringal Message: {message.orginalMessage}");
+            var message = Encryptable.Encrypt(args[0]);
+            Console.WriteLine($"Encrypted Message: {message.Encryption}, Original Message: {message.OriginalMessage}");
         }
     }
 }
