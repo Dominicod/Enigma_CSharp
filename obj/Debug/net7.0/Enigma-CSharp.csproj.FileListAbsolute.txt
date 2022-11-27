@@ -1,0 +1,15 @@
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/bin/Debug/net7.0/Enigma-CSharp
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/bin/Debug/net7.0/Enigma-CSharp.deps.json
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/bin/Debug/net7.0/Enigma-CSharp.runtimeconfig.json
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/bin/Debug/net7.0/Enigma-CSharp.dll
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/bin/Debug/net7.0/Enigma-CSharp.pdb
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.csproj.AssemblyReference.cache
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.AssemblyInfoInputs.cache
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.AssemblyInfo.cs
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.csproj.CoreCompileInputs.cache
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.dll
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/refint/Enigma-CSharp.dll
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.pdb
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/Enigma-CSharp.genruntimeconfig.cache
+/Users/dominicod/RiderProjects/Enigma-CSharp/Enigma-CSharp/obj/Debug/net7.0/ref/Enigma-CSharp.dll
